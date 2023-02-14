@@ -8,18 +8,6 @@ import pyttsx3
 import speech_recognition
 import threading
 
-
-# data_list=[ 'What is the capital of India',
-#             'Delhi is the capital of India',
-#             'In which language you talk',
-#             'I mostly talk in english',
-#             'What you do in free time',
-#             'I memorize things in my free time',
-#             'Ok bye',
-#             'bye take care'
-
-#             ]
-
 bot=ChatBot('Bot')
 trainer=ListTrainer(bot)
 
